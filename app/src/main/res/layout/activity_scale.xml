@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bk2"
+
+    tools:context=".Scale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+        <TextView
+            android:id="@+id/headtxtId13"
+            android:textColor="#d9011d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONVERT FROM"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Type : "
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            />
+        <Spinner
+            android:id="@+id/cvrtfrmspinId"
+            android:layout_marginLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qtantity : "
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="25dp"
+            />
+
+        <EditText
+            android:id="@+id/cvrtfrmtextId"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+        <TextView
+            android:id="@+id/headtxtId23"
+            android:textColor="#d9011d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONVERT TO"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Type : "
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            />
+        <Spinner
+            android:id="@+id/cvrttospinId"
+            android:layout_marginLeft="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        >
+        <Button
+            android:id="@+id/cvrtbtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:text=" "
+            android:textSize="18sp"
+            android:textColor="#100000"
+            android:id="@+id/resultId"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+</LinearLayout>

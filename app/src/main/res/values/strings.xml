@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ConverterApplication</string>
+
+    <string-array name="money_type">
+        <item>USD</item>
+        <item>BDT</item>
+        <item>INR</item>
+    </string-array>
+
+    <string-array name="temperature_type">
+        <item>CELSIUS</item>
+        <item>KELVIN</item>
+        <item>FAHRENHEIT</item>
+    </string-array>
+
+    <string name="formula">
+        \t\t\t\t\t\t\t\tFormula for Converting Temperature : \n\n
+        1. In case for Celsius :\n
+         F = (C * 9/5) + 32 \n
+        K = C + 273.15\n\n
+2. In case for Kelvin :\n
+ C = K - 273.15\n
+F = (K - 273.15) * 9/5 + 32\n\n
+3. In case for Fahrenheit  :\n
+ C = (F - 32) * 5/9\n
+K = (F - 32) * 5/9 + 273.15\n\n\n\n
+
+        \t\t\t\t\t\t\t\tFormula for Converting Currency : \n\n
+        1. In case for United States Dollar :\n
+         Taka = USD * 84.15; \n
+        Rupee = USD * 69.01\n\n
+2. In case for Bangladeshi Taka :\n
+ Dollar = BDT * 0.012\n
+Rupee = BDT * 0.82\n\n
+3. In case for India Rupee  :\n
+  Dollar = INR * 0.014\n
+Taka = INR * 1.22\n\n
+
+    </string>
+
+</resources>
